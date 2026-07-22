@@ -1,50 +1,52 @@
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/fea3331f-5452-4ecb-a063-7efe8028e710" />
-java는 객체지향언어(oop)이다
+# ☕ Java 기초 정리
 
-객체지향은 코드의 순서대로 진행하는 절차지향과는 다르게 객체들을 만들어 상호작효 시키는 언어이다
+![Java Logo](https://github.com/user-attachments/assets/fea3331f-5452-4ecb-a063-7efe8028e710)
 
-그의 특징을 잘 설명하는 특성으로 추상화, 캡슐화, 상속, 다형성 등이 있다
-가장 큰 특이점은 JVM( Java Virtual Machine)이다
+## 1. Java란?
 
-위의 기능으로 어떤 OS에 구애받지 않고 프로그램을 실행시킬 수 있다
+자바(Java)는 1995년 '썬 마이크로시스템즈(Sun Microsystems)'의 **제임스 고슬링(James Gosling)** 팀에서 임베디드 시스템을 위해 개발한 **객체지향 프로그래밍 언어(OOP)**입니다. 현재는 오라클(Oracle)에 인수되어 관리 및 배포되고 있습니다.
 
- 
+---
 
-자바는 1995년, 임베디드 프로그램을 위해 미국의 '썬마이크로시스템즈'사에서 '제임스 고슬링'팀에서 개발한 객체지향 언어 였으나 현재는 오라클에 인수되어 배포되고 있다
+## 2. 객체지향 프로그래밍 (OOP)
 
- 
+자바는 대표적인 **객체지향 언어**입니다.
 
-아마존 JDK
+* **절차지향과의 차이점:** 코드를 순차적으로 실행하는 절차지향 언어와 달리, 독립된 단위인 **'객체(Object)'**들을 만들고 이들의 상호작용을 통해 프로그램을 구성합니다.
+* **OOP의 4가지 주요 특징:**
+  1. **추상화 (Abstraction)**
+  2. **캡슐화 (Encapsulation)**
+  3. **상속 (Inheritance)**
+  4. **다형성 (Polymorphism)**
 
-https://aws.amazon.com/ko/corretto/
+---
 
- 
+## 3. Java의 가장 큰 특징: JVM
 
- java와 같은 언어로 프로젝트를 만들 때 도움이 되는 프로그램을 통합 개발 환경(IDE, Integrated Development Environment)이라고 부릅니다
+자바의 가장 큰 강점은 **JVM(Java Virtual Machine, 자바 가상 머신)**을 사용한다는 점입니다.
 
- IDE로는  현재 가장 보편적으로 사용되는 인텔리제이, 가장 오래 쓰인 이클립스, 다양한 언어를 사용할 수 있는 VScode가 있습니다
+* **운영체제(OS) 독립성:** "Write Once, Run Anywhere (한 번 작성하면 어디서든 실행된다)"라는 슬로건처럼, JVM 덕분에 개발자는 OS(Windows, macOS, Linux 등) 종류에 구애받지 않고 프로그램을 실행시킬 수 있습니다.
 
- 
+---
 
-인텔리제이
-https://lp.jetbrains.com/intellij-idea-promo/?source=google&medium=cpc&campaign=APAC_en_KR_IDEA_Branded&term=intellij&content=693444343130&gad_source=1&gad_campaignid=9730674179&gbraid=0AAAAADloJzhoMKcTgrIaZgrHYoVOhlC34&gclid=EAIaIQobChMIt8b-mMnilQMV19IWBR3J4CKUEAAYASAAEgKlyfD_BwE
+## 4. 통합 개발 환경 (IDE)
 
- 
+자바 프로젝트를 효율적으로 개발하기 위해 **통합 개발 환경(IDE, Integrated Development Environment)**을 사용합니다.
 
- 
+* **IntelliJ IDEA:** 현재 자바 개발에서 가장 보편적이고 강력한 기능을 제공하는 표준 IDE ([공식 사이트](https://www.jetbrains.com/idea/))
+* **Eclipse:** 오랜 기간 사용되어 온 전통적이고 안정적인 IDE
+* **VS Code:** 가볍고 다양한 언어 플러그인을 지원하는 범용 코드 에디터
 
- 
+> 🔗 **Amazon Corretto (OpenJDK):** [Amazon Corretto 다운로드](https://aws.amazon.com/ko/corretto/)
 
- 
+---
 
-오늘 정리
+## 5. 💡 오늘 요약: JDK vs JRE vs JVM
 
- 
+| 구분 | 개념 | 역할 |
+| :--- | :--- | :--- |
+| **JDK** | Java Development Kit | **개발 도구** (JRE + 컴파일러 `javac` 포함) |
+| **JRE** | Java Runtime Environment | **실행 환경** (JVM + 자바 라이브러리 파일) |
+| **JVM** | Java Virtual Machine | 자바 바이트코드(`.class`)를 읽어 해당 OS가 이해할 수 있는 **기계어로 변환 후 실행** |
 
-JDK (Java Development Kit): 개발 도구 + JRE (컴파일러 javac 포함).
-
-JRE (Java Runtime Environment): 실행 환경 (JVM + 라이브러리).
-
-JVM (Java Virtual Machine): 바이트코드(.class)를 읽어 해당 OS가 이해할 수 있는 기계어로 변환 및 실행합니다
-
- 
+> **포함 관계:** `JDK` ⊃ `JRE` ⊃ `JVM`
