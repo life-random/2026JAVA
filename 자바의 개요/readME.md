@@ -34,8 +34,8 @@
 자바 프로젝트를 효율적으로 개발하기 위해 **통합 개발 환경(IDE, Integrated Development Environment)**을 사용합니다.
 
 * **IntelliJ IDEA:** 현재 자바 개발에서 가장 보편적이고 강력한 기능을 제공하는 표준 IDE ([공식 사이트](https://www.jetbrains.com/idea/))
-* **Eclipse:** 오랜 기간 사용되어 온 전통적이고 안정적인 IDE ([공식 사이트]([https://www.eclipse.org/downloads/]))
-* **VS Code:** 가볍고 다양한 언어 플러그인을 지원하는 범용 코드 에디터 ([공식 사이트]([[https://www.jetbrains.com/idea/]))
+* **Eclipse:** 오랜 기간 사용되어 온 전통적이고 안정적인 IDE ([공식 사이트](https://www.eclipse.org/downloads/))
+* **VS Code:** 가볍고 다양한 언어 플러그인을 지원하는 범용 코드 에디터 ([공식 사이트](https://www.jetbrains.com/idea/))
 
 > 🔗 **Amazon Corretto (OpenJDK):** [Amazon Corretto 다운로드](https://aws.amazon.com/ko/corretto/)
 
